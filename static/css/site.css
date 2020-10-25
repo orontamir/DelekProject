@@ -32,3 +32,105 @@
     color: black;
     border-color: black;
 }
+#footer {
+    clear: both;
+}
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+body {
+    color: #4d4d4d;
+    font-family: Ad-regular,arial;
+    font-size: 17px;
+    line-height: 21px;
+    overflow-x: hidden;
+}
+#block-menu-menu-footer ul {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+ul.menu {
+    text-align: right;
+}
+menu, ol, ul {
+    padding: 0 30px 0 0;
+}
+menu, ol, ul {
+    padding: 0 0 0 30px;
+}
+dl, menu, ol, ul {
+    margin: 1.5em 0;
+}
+user agent stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul.menu li {
+    margin: 0 0.5em 0 0;
+}
+li.expanded, li.collapsed, li.leaf {
+    padding: 0.2em 0 0 0.5em;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#block-menu-menu-footer ul {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+#block-menu-menu-footer li {
+    list-style-type: none;
+    display: inline-block;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+.menu__item.is-leaf {
+    /* list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC); */
+    /* list-style-type: square; */
+}
+ul.menu li {
+    margin: 0 0.5em 0 0;
+}
+li.expanded, li.collapsed, li.leaf {
+    padding: 0.2em 0 0 0.5em;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+}
+ul.menu {
+    text-align: right;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+Style Attribute {
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

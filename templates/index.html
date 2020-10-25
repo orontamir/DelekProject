@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- <meta name="viewport" content="width=device-width" /> -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='jquery/jquery.js') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='jquery/jquery.validate.js') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='jquery/jquery.validate.unobtrusive.js') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/js/bootstrap.js') }}">
+    <!-- Bootstrap CSS -->
+
+    <title>דלר פורטל</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <div class="container">
+
+
+        <div>
+            <div class="container">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                     <img src="{{url_for('static', filename='images/employee.png')}}" align="middle" height="30" width="30" />
+
+
+                </nav>
+                <div class="rounded">
+                    <div class="card-body text-center">
+                        <img class="card-img-top" src="{{url_for('static', filename='images/Delek.png')}}" asp-append-version="true" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script id="connectScript" type="text/javascript" src="//apps.commbox.io//Scripts/connect.js"></script>
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            BY.contactUs({
+                baseDomain: 'commbox.io/',
+                appsSubDomain: 'apps',
+                streamId: 'w29MpSES8S7DH2awT59e_fQ%3d%3d',
+                trackerStreamId: '',
+                animateDistance: 0, // the space from right/top/bottom/left- (used for preButton and frame),
+                defaultModuleId: 10, /* sms = 14, mail = 10, facebook = 3, chat = 9 */
+
+                //*** more options ***//
+                // topPanelControlsColor: '#fff', // icons and texts in top panel
+                // subStreamId: 0,
+                // externalLoginUrl: '',  // used in case you want to replace bumpyard login page in your login page.(need integration)
+                // ta: "ticket",
+            });
+        });
+    </script>
+</body>
+</html>
